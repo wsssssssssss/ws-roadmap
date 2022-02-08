@@ -14,7 +14,7 @@ Step by step guide to becoming a modern 기능이
 
 ## 문서 모음
 
-- [배열](/docs/Array.md)
+- [배열 method 정리](/docs/Array.md)
 
 ---
 
