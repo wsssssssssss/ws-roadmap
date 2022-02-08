@@ -29,6 +29,10 @@
 - [sort](#Array.prototype.sort)
 - [some](#Array.prototype.some)
 
+---
+
+<a name="Array.prototype.length"/>
+
 ## Array.prototype.length
 
 배열의 아이템 수를 나타낸다.
@@ -42,6 +46,8 @@ arr.length = 5; // arr = [1, 2, 3, empty, empty]; (empty = 해당 index에 아�
 
 arr.length = 1; // arr = [1];
 ```
+
+<a name="Array.prototype.concat"/>
 
 ## Array.prototype.concat
 
@@ -60,6 +66,8 @@ arr.concat(4, [5, 6]); // [1, 2, 3, 4, 5, 6]
 console.log(arr); // [1, 2, 3]
 ```
 
+<a name="Array.prototype.every"/>
+
 ## Array.prototype.every
 
 배열의 모든 아이템이 콜백함수를 통과하면 true를 아니면 false를 반환한다.
@@ -72,6 +80,8 @@ arr.every((num) => num > 0); // true
 arr.every((num) => num > 1); // false (1이 false)
 arr.every((num) => num < 3); // false (3이 false)
 ```
+
+<a name="Array.prototype.fill"/>
 
 ## Array.prototype.fill
 
@@ -87,6 +97,8 @@ arr.fill(0, 2); // arr = [1, 1, 0, 0];
 arr.fill(99, 1, 2); // arr = [1, 99, 0, 0];
 ```
 
+<a name="Array.prototype.filter"/>
+
 ## Array.prototype.filter
 
 배열의 아이템중 콜백 함수를 통과하는 아이템들만 모아 새로운 배열을 반환한다.
@@ -100,6 +112,8 @@ arr.filter((v) => v < 2); // [1]
 arr.filter((v) => v % 2); // [1, 3]
 ```
 
+<a name="Array.prototype.find"/>
+
 ## Array.prototype.find
 
 배열의 아이템중 콜백 함수를 통과하는 첫 번째 아이템을 반환한다. 없으면 undefined를 반환.
@@ -112,6 +126,8 @@ const arr = [{ a: 1 }, { a: 2 }, { a: 3 }];
 arr.find((ele) => ele.a === 3); // { a: 3 }
 arr.find((ele, idx) => idx === 0); // { a: 1 }
 ```
+
+<a name="Array.prototype.flat"/>
 
 ## Array.prototype.flat
 
@@ -127,6 +143,8 @@ arr.flat(); // [1,2,3,4,5,[6,7,[8,9]]];
 arr.flat(2); // [1,2,3,4,5,6,7,[8,9]];
 arr.flat(Infinity); // [1,2,3,4,5,6,7,8,9];
 ```
+
+<a name="Array.prototype.forEach"/>
 
 ## Array.prototype.forEach
 
@@ -149,6 +167,8 @@ arr.forEach((ele) => {
 console.llog(cnt); // 4
 ```
 
+<a name="Array.prototype.includes"/>
+
 ## Array.prototype.includes
 
 배열이 특정 아이템을 포함하고 있는지를 체크한다.
@@ -169,6 +189,8 @@ arr.includes("HI"); // false
 arr.includes(1, 1); // false
 ```
 
+<a name="Array.prototype.join"/>
+
 ## Array.prototype.join
 
 배열의 아이템들을 연결해 문자열로 만든다.
@@ -180,6 +202,8 @@ arr.join(); // 1,2,3,4
 [].join(); // ''
 [].join(","); // ''
 ```
+
+<a name="Array.prototype.map"/>
 
 ## Array.prototype.map
 
@@ -194,6 +218,8 @@ arr.map((ele) => ele + 1); // [2,3,4,5]
 arr.map((ele) => "Hi"); // ['Hi','Hi','Hi','Hi']
 arr.map((ele, idx) => idx); // [0,1,2,3]
 ```
+
+<a name="Array.prototype.reduce"/>
 
 ## Array.prototype.reduce
 
@@ -215,6 +241,8 @@ arr.reduce((acc, ele, idx) => {
 }, {}); // { key0: 1, key1: 2, key2: 3, key3: 4 }
 ```
 
+<a name="Array.prototype.reverse"/>
+
 ## Array.prototype.reverse
 
 배열의 순서를 반전한다.
@@ -227,6 +255,8 @@ arr.reverse(); // [4,3,2,1];
 
 console.log(arr); // [4,3,2,1];
 ```
+
+<a name="Array.prototype.slice"/>
 
 ## Array.prototype.slice
 
@@ -244,6 +274,8 @@ arr.slice(1); // [2,3,4]
 arr.slice(2, 3); // [3]
 ```
 
+<a name="Array.prototype.some"/>
+
 ## Array.prototype.some
 
 every가 모든 아이템이 콜백함수를 통과하는지 체크하는 거라면 some은 하나의 요소라도 통과하는지 체크한다.
@@ -257,6 +289,8 @@ arr.some((num) => num > 1); // true
 arr.some((num) => num < 3); // true
 arr.some((num) => num === 4); // false
 ```
+
+<a name="Array.prototype.sort"/>
 
 ## Array.prototype.sort
 
@@ -292,6 +326,8 @@ arr.sort((a, b) => a - b); // [1,2,3]
 
 console.log(arr); // [1,2,3]
 ```
+
+<a name="Array.prototype.some"/>
 
 ## Array.prototype.some
 
