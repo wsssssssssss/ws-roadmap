@@ -55,7 +55,7 @@ Step by step guide to becoming a modern 기능이
 3. 기타 나머지 function 선언
 4. eventListenr function 선언
 5. eve function 선언
-6. (기타 init에서만 쓰이느 함수들)
+6. (기타 init에서만 쓰이는 함수들)
 7. init 선언
 8. window.onload = init();
 
