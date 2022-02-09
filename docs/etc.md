@@ -128,11 +128,11 @@ document.body.replaceId("testId");
 
 # let const 차이
 
-const: 변경 불가능한 변수
+const: 변경 불가능한 변수 <br />
 let: 변경 가능한 변수
 
 # 화살표 함수 일반 함수 차이
 
-기능대회 기준) this 유무 + 더 빨리 칠 수 있다. 클래스를 쓰지 않는다면 this 유무도 사실상 거진 상관 없다.
-(화살표 함수 이벤트 핸들러의 경우 this로 Element를 가져오지 못한다.)
+기능대회 기준) this 유무 + 더 빨리 칠 수 있다. 클래스를 쓰지 않는다면 this 유무도 사실상 거진 상관 없다. <br />
+(화살표 함수 이벤트 핸들러의 경우 this로 Element를 가져오지 못한다.) <br />
 [관련 아티클](https://dmitripavlutin.com/when-not-to-use-arrow-functions-in-javascript/)
