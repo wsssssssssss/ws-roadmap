@@ -17,6 +17,7 @@ Step by step guide to becoming a modern 기능이
 
 - [배열 method 정리](/docs/Array.md)
 - [프로미스](/docs/Promise.md)
+- [정규표현식](/docs/Regex.md)
 - [기타](/docs/etc.md)
   - [id를 classList처럼 제어하기](/docs/etc.md#id를-classlist처럼-제어하기)
   - [let const 차이](/docs/etc.md#let-const-차이)
