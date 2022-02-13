@@ -158,7 +158,7 @@ res
 ```
 
 ## Async, Await
-단순히 Promise를 쉽게 사용한다고 생각해도 무방하다. async await도 사실 Promise에 then callback을 붙이는 것과 동일하게 작동한다.
+단순히 Promise를 쉽게 사용한다고 생각해도 무방하다. async await도 사실 Promise에 then callback을 붙이는 것과 거진 동일하게 작동한다.
 
 ```js
 const getItem = () => new Promise(res => {
