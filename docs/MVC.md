@@ -1,8 +1,8 @@
 # MVC
 
-C 모듈 PHP의 근간을 이루는 디자인패턴인 MVC를 알아보자.
-앱을 Model, View, Controller 세가지로 나누는 디자인패턴이다.
-앱의 간략한 흐름은 Controller에서 Model의 데이터를 가져오고 가져온 데이터는 View에 넘겨줘서 화면을 그린다.
+C 모듈 PHP의 근간을 이루는 디자인패턴인 MVC를 알아보자.<br />
+앱을 Model, View, Controller 세가지로 나누는 디자인패턴이다.<br />
+앱의 간략한 흐름은 Controller에서 Model의 데이터를 가져오고 가져온 데이터는 View에 넘겨줘서 화면을 그린다.<br />
 UI와 비즈니스 로직의 분리가 주요 장점이다. (비즈니스 로직 = Model, UI = View, 그 사이 중간다리 = Controller)
 
 ## Model
