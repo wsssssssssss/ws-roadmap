@@ -90,7 +90,7 @@ drawing tool을 javascript로 구현하며 Canvas API에 대해 더 구체적으
 
 ### 6. [php-wordle](https://github.com/wsssssssssss/php-wordle)
 
-wordle을 구현하며 clipboard api, http request, polling, 기타 js 테크닉을 알아본다.
+wordle을 구현하며 clipboard api, http request, polling, 기타 js 테크닉 및 php를 알아본다.
 
 ### 7. [js-trello](https://github.com/wsssssssssss/js-trello)
 
