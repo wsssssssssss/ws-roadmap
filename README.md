@@ -53,6 +53,7 @@ Step by step guide to becoming a modern 기능이
 
 순서는 이렇게 써뒀지만 코드의 흐름을 맞춰서 위에서 부터 아래로 작성하면 됨
 
+#### Javascript
 1. const var 선언
 2. let var 선언
 3. 기타 나머지 function 선언
@@ -61,6 +62,47 @@ Step by step guide to becoming a modern 기능이
 6. (기타 init에서만 쓰이는 함수들)
 7. init 선언
 8. window.onload = init();
+
+#### CSS
+1. 특정 아이템들의 고유 속성들
+  - list styling, table styling
+2. item 요소에서 부모의 속성을 override 할 수 있는 속성들
+  - (align-self, justify-self, ...)
+3. position
+  - position, top, right, bottom, left
+4. display
+  - display
+  - display에 의한 요소들 (flex 관련 속성, grid 관련 속성, ...)
+5. size
+  - width, height 관련 요소
+6. margin
+7. padding
+8. border
+9. outline
+10. box-shadow
+11. background
+12. font
+  - font-size, color, line-height
+13. etc
+  - z-index, box-sizing, cursor, 등등
+
+Ex
+```css
+body {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-width: 500px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 35px 25px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  font-size: 24px;
+}
+```
 
 ---
 
