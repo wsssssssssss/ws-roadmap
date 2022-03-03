@@ -65,16 +65,16 @@ Step by step guide to becoming a modern 기능이
 
 #### CSS
 1. 특정 아이템들의 고유 속성들
-  - list styling, table styling
+    - list styling, table styling
 2. item 요소에서 부모의 속성을 override 할 수 있는 속성들
-  - (align-self, justify-self, ...)
+    - (align-self, justify-self, ...)
 3. position
-  - position, top, right, bottom, left
+    - position, top, right, bottom, left
 4. display
-  - display
-  - display에 의한 요소들 (flex 관련 속성, grid 관련 속성, ...)
+    - display
+    - display에 의한 요소들 (flex 관련 속성, grid 관련 속성, ...)
 5. size
-  - width, height 관련 요소
+    - width, height 관련 요소
 6. margin
 7. padding
 8. border
@@ -82,9 +82,9 @@ Step by step guide to becoming a modern 기능이
 10. box-shadow
 11. background
 12. font
-  - font-size, color, line-height
+    - font-size, color, line-height
 13. etc
-  - z-index, box-sizing, cursor, 등등
+    - z-index, box-sizing, cursor, 등등
 
 Ex
 ```css
