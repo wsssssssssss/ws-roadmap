@@ -1,4 +1,4 @@
-# ws-roadmap [WIP]
+# ws-roadmap
 
 Step by step guide to becoming a modern 기능이
 
