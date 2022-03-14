@@ -16,10 +16,10 @@ Step by step guide to becoming a modern 기능이
 - [Tip](/docs/Tip.md)
 - [Convention](/docs/Convention.md)
 - [배열 method 정리](/docs/Array.md)
-- [클린 코드](/docs/CleanCode.md)
+- [클린 코드 관련 조언 모음](/docs/CleanCode.md)
 - [프로미스](/docs/Promise.md)
 - [정규표현식](/docs/Regex.md)
-- [MVC](/docs/MVC.md)
+- [능기대회 php MVC 설명](/docs/MVC.md)
 
 ---
 
